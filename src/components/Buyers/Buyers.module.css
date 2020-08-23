@@ -1,0 +1,59 @@
+.tableBuyers {
+    border: black solid 1px;
+    border-collapse: collapse;
+}
+
+.tableBuyers img {
+    width: 15px;
+    height: 15px;
+}
+
+.tableBuyers a {
+    color: black;
+    text-decoration: none;
+}
+
+.tableBuyers a:hover {
+    color: dimgray;
+    text-decoration: none;
+}
+
+.tableBuyers tr {
+    width: 100%;
+    border: black solid 1px;
+}
+
+.tableBuyers th {
+    border: black solid 1px;
+    width: 20%;
+}
+
+.tableBuyers td {
+    border: black solid 1px;
+    width: 20%;
+    padding: 0 5px
+}
+
+.pagination {
+    float: right;
+    margin-top: 20px;
+}
+
+.currentPage {
+    font-weight: solid;
+    font-size: large;
+}
+
+.selectAndFilter {
+    display: inline-flex;
+}
+
+.selectAndFilter select {
+    height: 20px;
+    margin: 23px 0 0 10px;
+}
+
+.selectAndFilter input {
+    height: 15px;
+    margin: 23px 0 0 10px;
+}

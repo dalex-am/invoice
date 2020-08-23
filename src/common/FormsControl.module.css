@@ -1,0 +1,25 @@
+.formControl textarea {
+    width: 822px;
+}
+
+.input {
+    display: inline-flex;
+}
+
+.formControl.error input,
+.formControl.error textarea {
+    border: red solid 2px;
+}
+
+.formControl.error span{
+    color: red;
+    font-size: 9px;
+    margin-left: 5px;
+}
+
+.summaryFormError {
+    border: 2px solid red;
+    padding: 5px;
+    color: red;
+    margin-top: 5px;
+}

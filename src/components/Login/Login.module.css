@@ -1,0 +1,12 @@
+.login {
+    margin: 50px auto;
+    padding: 20px;
+    width: 400px;
+    height: 100px;
+    border: black solid 2px;
+}
+
+.summaryFormError {
+    color: firebrick;
+    font-size: small;
+}

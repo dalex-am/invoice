@@ -1,0 +1,38 @@
+.header {
+    grid-area: h;
+    padding: 10px;
+    background-color: grey;
+}
+
+.avatar {
+    float: left;
+}
+
+.avatar img {
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+}
+
+.links {
+    float: right;
+    display: inline-flex;
+    margin-top: 5px;
+}
+
+.links a {
+    color: black;
+    text-decoration: none;
+}
+
+.links a:hover {
+    color: dimgray;
+}
+
+.links a.active {
+    color: dimgray;
+}
+
+.item {
+    margin-right: 50px;
+}

@@ -1,0 +1,21 @@
+.App {
+  display: grid;
+  grid-template-areas: 
+    "h h"
+    "s c"
+    "f f";
+  grid-template-rows: 60px 1fr 60px;
+  grid-template-columns: 2fr 10fr;
+  width: 80%;
+  margin: auto;
+}
+
+.App-content {
+  grid-area: c;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: grey;
+}
+

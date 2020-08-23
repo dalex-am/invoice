@@ -1,0 +1,36 @@
+.sidebar {
+    grid-area: s;
+    padding: 10px;
+    background-color: grey;
+    margin: 10px 0;
+    display: grid;
+    grid-template-rows: 0fr 1fr 1fr 0fr;
+}
+
+.avatar img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.btnLogout {
+    float: right;
+    margin: 5px 0;
+}
+
+.item {
+    margin-bottom: 20px;
+}
+
+.item a {
+    text-decoration: underline;
+    color: black;
+}
+
+.item a:hover {
+    color: dimgray;
+}
+
+.item a.active {
+    color: dimgray;
+}

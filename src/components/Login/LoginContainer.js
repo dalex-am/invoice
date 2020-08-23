@@ -2,7 +2,7 @@ import React from "react"
 import Login from "./Login"
 import {connect} from "react-redux";
 import { compose } from 'redux';
-import {login} from '../../redux/authReducer'
+import {login, toggleIsLoading} from '../../redux/authReducer'
 
 const LoginContainer = (props) => {
 
@@ -13,10 +13,11 @@ const LoginContainer = (props) => {
 
 let mapStateToProps = (state) => {
     return {
-        isAuth: state.auth.isAuth
+        isAuth: state.auth.isAuth,
+        isLoading: state.auth.isLoading
     }
 }
 
 export default compose(
-    connect(mapStateToProps, {login})
+    connect(mapStateToProps, {login, toggleIsLoading})
 )(LoginContainer)

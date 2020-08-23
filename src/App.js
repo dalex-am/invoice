@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import {BrowserRouter, Route, Switch} from "react-router-dom";
+import {Route, Switch} from "react-router-dom";
 import LoginContainer from './components/Login/LoginContainer'
 import HeaderContainer from './components/Header/HeaderContainer'
 import SidebarContainer from './components/Sidebar/SidebarContainer'
@@ -31,6 +31,7 @@ class App extends Component {
         <SidebarContainer />
         <div className="App-content">
           <Switch>
+            <Route exact path="/invoice" render={() => <h1>Стартовая страница</h1>}/>
             <Route exact path="/" render={() => <h1>Стартовая страница</h1>}/>
             <Route path="/terminals" render={() => <TerminalsContainer />}/>
             <Route exact path="/buyers" render={() => <BuyersContainer />}/>
